@@ -41,7 +41,7 @@ logger:
 api:
 
 ota:
-  - platform: esphome
+  - platform: esphome #ESPhome版本在2024.6前不需要此行
 
 #web_server:
 
