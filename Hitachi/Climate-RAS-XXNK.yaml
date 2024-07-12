@@ -40,7 +40,7 @@ logger:
 api:
 
 ota:
-  - platform: esphome #ESPhome 2024.6以前不用這行
+  - platform: esphome #ESPhome版本在2024.6前不需要此行
 #web_server:
 
 uart:
