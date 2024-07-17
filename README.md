@@ -23,6 +23,10 @@
 | dehumidifier.factory.bin |  日立除濕機  |  接USB直接燒錄  |
 | dehumidifier.ota.bin |  日立除濕機  |  OTA專用  |
 
+## 如何下載
+
+點擊檔案名稱>點右上角有個下載的圖案(Download Raw file)>儲存
+
 ## 使用方法
 
 ### A. 透過USB
