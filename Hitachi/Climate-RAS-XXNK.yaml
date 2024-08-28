@@ -141,6 +141,7 @@ sensor:
     temperature_outdoor:
       name: "Temperature Outdoor"
     energy_consumption:
+      state_class: total_increasing
       name: "Energy"
     operating_hours:
       name: "Operating Hours"
