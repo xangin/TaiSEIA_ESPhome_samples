@@ -130,6 +130,7 @@ sensor:
     operating_current:
       name: "Current"
     energy_consumption:
+      state_class: total_increasing
       name: "Energy"
     operating_watt:
       name: "Power"
