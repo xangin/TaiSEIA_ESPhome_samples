@@ -146,6 +146,7 @@ sensor:
     humidity_indoor:
       name: "Humidity Indoor"    
     energy_consumption:
+      state_class: total_increasing
       name: "Energy"
     error_code:
       name: "Error Code"
