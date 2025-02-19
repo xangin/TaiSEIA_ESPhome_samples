@@ -1,7 +1,7 @@
 substitutions:
   devicename: dehumidifier
-  upper_devicename: "RD22FC"
-  model_name: "RD-22FC"
+  upper_devicename: "Dehumidifier"
+  model_name: "Dehumidifier"
   
 esphome:
   name: $devicename
@@ -41,7 +41,7 @@ logger:
 api:
 
 ota:
-  - platform: esphome #ESPhome版本在2024.6前不需要此行
+  - platform: esphome
 
 #web_server:
 
