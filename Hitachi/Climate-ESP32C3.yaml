@@ -7,7 +7,6 @@ esphome:
   name: $devicename
   friendly_name: ${upper_devicename}
   comment: ESP32C3 for $model_name
-  name_add_mac_suffix: true
   project:
     name: "TaiSEIA-Hitachi.$model_name"
     version: "ESP32C3"
@@ -41,7 +40,7 @@ logger:
 api:
 
 ota:
-  - platform: esphome #ESPhome版本在2024.6前不需要此行
+  - platform: esphome
 
 web_server:
 
