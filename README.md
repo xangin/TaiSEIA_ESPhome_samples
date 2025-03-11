@@ -14,14 +14,17 @@
 
 請根據下表選擇適合的檔案燒錄
 
-| 檔名 | 適用廠牌 | 燒錄方式 |
-|-------|:-----:|-------|
-| climate-p.factory.bin |  國際牌冷氣  |  接USB直接燒錄  |
-| climate-p.ota.bin |  國際牌冷氣  |  web server OTA用  |
-| climate-h.factory.bin |  日立冷氣  |  接USB直接燒錄  |
-| climate-h.ota.bin |  日立冷氣  |  OTA專用  |
-| dehumidifier.factory.bin |  日立除濕機  |  接USB直接燒錄  |
-| dehumidifier.ota.bin |  日立除濕機  |  OTA專用  |
+| 檔名 | 適用廠牌 | 燒錄方式 | 適用模組 |
+|-------|:-----:|:-----:|-------|
+| c3-mini-climate-h.factory.bin | 日立冷氣 |  接USB直接燒錄  | ESP32C3 |
+| c3-mini-climate-p.factory.bin | 國際牌冷氣 |  接USB直接燒錄  | ESP32C3 |
+| c3-mini-dehumidifier.factory.bin |  日立除濕機  |  接USB直接燒錄  | ESP32C3 |
+| climate-h.factory.bin |  日立冷氣  |  接USB直接燒錄  | ESP32 |
+| climate-h.ota.bin |  日立冷氣  |  OTA專用  | ESP32 |
+| climate-p.factory.bin |  國際牌冷氣  |  接USB直接燒錄  | ESP32 |
+| climate-p.ota.bin |  國際牌冷氣  |  web server OTA用  | ESP32 |
+| dehumidifier.factory.bin |  日立除濕機  |  接USB直接燒錄  | ESP32 |
+| dehumidifier.ota.bin |  日立除濕機  |  OTA專用  | ESP32 |
 
 ## 如何下載
 
