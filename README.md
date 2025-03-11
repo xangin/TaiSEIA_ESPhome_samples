@@ -2,7 +2,7 @@
 
 感謝[洋蔥大神](https://github.com/tsunglung/taixia)開發TaiSEIA for ESPhome，才能有此範例
 
-此範例使用[MH-ET LIVE minikit for ESP32](https://doc.riot-os.org/group__boards__esp32__mh-et-live-minikit.html)硬體，另加DC-DC轉5V(國際牌)與level shifter轉3.3V
+此範例使用[MH-ET LIVE minikit for ESP32](https://doc.riot-os.org/group__boards__esp32__mh-et-live-minikit.html)硬體，新版本改用[ESP32C3](https://www.nologo.tech/product/esp32/esp32c3/esp32c3supermini/esp32C3SuperMini.html)體積更小，另加DC-DC轉5V(國際牌)與level shifter轉3.3V
 
 適用廠牌: **國際牌冷氣、日立冷氣、日立除濕機**
 
