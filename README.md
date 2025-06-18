@@ -14,18 +14,18 @@
 
 請根據下表選擇適合的檔案燒錄
 
-| 檔名 | 適用廠牌 | 燒錄方式 | 適用模組 |
-|-------|:-----:|:-----:|-------|
-| c3-mini-climate-h.factory.bin | 日立冷氣 |  接USB直接燒錄  | ESP32C3 |
-| c3-mini-climate-p.factory.bin | 國際牌冷氣 |  接USB直接燒錄  | ESP32C3 |
-| c3-mini-climate-p.ota.bin |  國際牌冷氣  |  web server OTA用  | ESP32C3 |
-| c3-mini-dehumidifier.factory.bin |  日立除濕機  |  接USB直接燒錄  | ESP32C3 |
-| climate-h.factory.bin |  日立冷氣  |  接USB直接燒錄  | ESP32 |
-| climate-h.ota.bin |  日立冷氣  |  OTA專用  | ESP32 |
-| climate-p.factory.bin |  國際牌冷氣  |  接USB直接燒錄  | ESP32 |
-| climate-p.ota.bin |  國際牌冷氣  |  web server OTA用  | ESP32 |
-| dehumidifier.factory.bin |  日立除濕機  |  接USB直接燒錄  | ESP32 |
-| dehumidifier.ota.bin |  日立除濕機  |  OTA專用  | ESP32 |
+| 檔名 | 適用廠牌 | 燒錄方式 | 適用模組(外觀) | Bin檔 | YAML |
+|-------|:-----:|:-----:|:-----:|:-----:|-------|
+| c3-mini-climate-h.factory.bin | 日立冷氣 |  接USB直接燒錄  | ESP32C3(小) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/c3-mini-climate-h.factory.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Hitachi/Climate-ESP32C3.yaml) |
+| c3-mini-climate-p.factory.bin | 國際牌冷氣 |  接USB直接燒錄  | ESP32C3(小) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/c3-mini-climate-p.factory.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Panasonic/Climate-sample-ESP32C3.yaml) |
+| c3-mini-climate-p.ota.bin |  國際牌冷氣  |  web server OTA用  | ESP32C3(小) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/c3-mini-climate-p.ota.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Panasonic/Climate-sample-ESP32C3.yaml) |
+| c3-mini-dehumidifier.factory.bin |  日立除濕機  |  接USB直接燒錄  | ESP32C3(小) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/c3-mini-dehumidifier.factory.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Hitachi/Dehumidifier-ESP32C3.yaml) |
+| climate-h.factory.bin |  日立冷氣  |  接USB直接燒錄  | ESP32(大) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/climate-h.factory.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Hitachi/Climate-ESP32.yaml) |
+| climate-h.ota.bin |  日立冷氣  |  OTA專用  | ESP32(大) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/climate-h.ota.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Hitachi/Climate-ESP32.yaml) |
+| climate-p.factory.bin |  國際牌冷氣  |  接USB直接燒錄  | ESP32(大) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/climate-p.factory.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Panasonic/Climate-sample-ESP32.yaml) |
+| climate-p.ota.bin |  國際牌冷氣  |  web server OTA用  | ESP32(大) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/climate-p.ota.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Panasonic/Climate-sample-ESP32.yaml) |
+| dehumidifier.factory.bin |  日立除濕機  |  接USB直接燒錄  | ESP32(大) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/dehumidifier.factory.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Hitachi/Dehumidifier-ESP32.yaml) |
+| dehumidifier.ota.bin |  日立除濕機  |  OTA專用  | ESP32(大) | [Bin檔](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/dehumidifier.ota.bin) | [YAML](https://github.com/xangin/TaiSEIA_ESPhome_samples/blob/main/Hitachi/Dehumidifier-ESP32.yaml) |
 
 ## 如何下載
 
