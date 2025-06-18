@@ -4,13 +4,11 @@
 
 此範例使用[MH-ET LIVE minikit for ESP32](https://doc.riot-os.org/group__boards__esp32__mh-et-live-minikit.html)硬體，新版本改用[ESP32C3](https://www.nologo.tech/product/esp32/esp32c3/esp32c3supermini/esp32C3SuperMini.html)體積更小，另加DC-DC轉5V(國際牌)與level shifter轉3.3V
 
-適用廠牌: **國際牌冷氣、日立冷氣、日立除濕機**
+適用廠牌: **國際牌壁掛冷氣、日立壁掛&吊隱冷氣、日立除濕機**
 
 適用型號: 可外接原廠Wi-Fi智慧模組的機型，安裝簡單方便
 
 根據廠牌與機器分開範例，基本上只要修改最頂端的兩個名稱即可，方便OTA與辨識是哪一台
-
-# 新增上傳已編譯好的Bin檔
 
 請根據下表選擇適合的檔案燒錄
 
