@@ -35,7 +35,7 @@
 
 1. 模組透過usb接上電腦
 2. 用chrome或edge瀏覽器前往 [https://web.esphome.io](https://web.esphome.io/)
-3. 按Connect>選擇寫有USB Single Serial>按INSTALL>選擇剛儲存的Bin檔，等待燒錄完成
+3. 按Connect>選擇寫有USB Single Serial(大)或USB JTAG(小)>按INSTALL>選擇剛儲存的Bin檔，等待燒錄完成
 4. 顯示finish後，就可看到ESP32上面的藍燈開始閃爍，這時候等待久一點，會看到有熱點跑出來
 5. 點連線並輸入Wi-Fi密碼: 12345678
 6. 連上後輸入http://192.168.4.1
