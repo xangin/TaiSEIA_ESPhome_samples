@@ -33,16 +33,18 @@
 
 ### A. 透過USB
 
-1. 模組透過usb接上電腦
-2. 用chrome或edge瀏覽器前往 [https://web.esphome.io](https://web.esphome.io/)
-3. 按Connect>選擇寫有USB Single Serial(大)或USB JTAG(小)>按INSTALL>選擇剛儲存的Bin檔，等待燒錄完成
-4. 顯示finish後，就可看到ESP32上面的藍燈開始閃爍，這時候等待久一點，會看到有熱點跑出來
-5. 點連線並輸入Wi-Fi密碼: 12345678
-6. 連上後輸入http://192.168.4.1
-7. 進到網頁選擇家中Wi-Fi名稱及輸入密碼後按儲存，連上後HA應該就會自動發現此裝置
+1. 下載名稱結尾是factory.bin的檔案
+2. 模組透過usb接上電腦
+3. 用chrome或edge瀏覽器前往 [https://web.esphome.io](https://web.esphome.io/)
+4. 按Connect>選擇寫有USB Single Serial(大)或USB JTAG(小)>按INSTALL>選擇剛儲存的Bin檔，等待燒錄完成
+5. 顯示finish後，就可看到ESP32上面的藍燈開始閃爍，這時候等待久一點，會看到有熱點跑出來
+6. 點連線並輸入Wi-Fi密碼: 12345678
+7. 連上後輸入http://192.168.4.1
+8. 進到網頁選擇家中Wi-Fi名稱及輸入密碼後按儲存，連上後HA應該就會自動發現此裝置
 
 ### B. OTA
 
-1. 在瀏覽器網址列輸入裝置IP
-2. 最下方OTA Update選擇ota.bin檔>按Update，等待畫面跳轉為done即完成
+1. 下載名稱結尾是factory.bin的檔案
+2. 在瀏覽器網址列輸入裝置IP
+3. 最下方OTA Update選擇ota.bin檔>按Update，等待畫面跳轉為done即完成
 
