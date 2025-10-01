@@ -99,12 +99,6 @@ button:
 number:
   - platform: taixia
     type: airconditioner
-#    vertical_fan_speed:
-#      name: "Vertical Fan Speed"
-#      max_value: 4
-    horizontal_fan_speed:
-      name: "Horizontal Fan Speed"
-      max_value: 4
     sleep_timer:
       name: "Sleep Timer"
     off_timer:
@@ -117,6 +111,8 @@ select:
     type: airconditioner
     display_mode:
       name: "Display Mode"
+    swing_horizontal_level:
+      name: "Swing Horizontal Level"    
 
 sensor:
   - platform: wifi_signal
@@ -131,7 +127,7 @@ sensor:
     accuracy_decimals: 1
 
   - platform: internal_temperature
-    name: "Internal Temperature"
+    name: "ESP Temperature"
 
   - platform: taixia
     type: airconditioner
@@ -156,8 +152,10 @@ switch:
       name: "Buzzer"
     mildew_proof:
       name: "Mildew Proof"
-    air_flow_vertical:
-      name: "Vertical Fan"
+    swing_vertical:
+      name: "Swing Vertical"
+    swing_horizontal:
+      name: "Swing Horizontal"
 
 text_sensor:
   - platform: version
@@ -180,8 +178,6 @@ text_sensor:
 
 taixia:
   sa_id: 1
-#  max_length: 100
-#  uart_id: uart_taixia
 
 time:
   - platform: homeassistant
