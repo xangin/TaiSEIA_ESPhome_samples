@@ -83,6 +83,7 @@ climate:
       - NONE
       - BOOST
       - ECO
+      - COMFORT
     #supported_humidity: True
 
 button:
@@ -95,7 +96,13 @@ button:
     type: airconditioner
     get_info:
       name: "Get Info"
-
+    operating_hours:
+      name: "Reset Operating Hours"
+    energy_reset:
+      name: "Reset Energy Consumption"
+    filter_clean_hours:
+      name: "Reset Filter Clean Hours"
+      
 number:
   - platform: taixia
     type: airconditioner
@@ -142,6 +149,10 @@ sensor:
       name: "Energy"
     operating_hours:
       name: "Operating Hours"
+    error_code:
+      name: "Error Code"
+    filter_clean_hours:
+      name: "Filter Clean Hours"
 
 switch:
   - platform: taixia
@@ -156,6 +167,8 @@ switch:
       name: "Swing Vertical"
     swing_horizontal:
       name: "Swing Horizontal"
+    frost_wash:
+      name: "Frost Wash"
 
 text_sensor:
   - platform: version
