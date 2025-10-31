@@ -45,7 +45,7 @@
 
 ### B. OTA
 
-1. 下載名稱結尾是factory.bin的檔案
+1. 下載名稱結尾是ota.bin的檔案
 2. 在瀏覽器網址列輸入裝置IP
 3. 最下方OTA Update選擇ota.bin檔>按Update，等待畫面跳轉為done即完成
 
