@@ -19,7 +19,7 @@ external_components:
 esp32:
   board: airm2m_core_esp32c3
   framework:
-    type: arduino
+    type: esp-idf
 
 wifi:
   ssid: !secret wifi_ssid
@@ -97,6 +97,7 @@ climate:
       - ECO
       - ACTIVITY
       - SLEEP
+      - AWAY
 
 
 number:
@@ -108,7 +109,7 @@ number:
 sensor:
   - platform: wifi_signal
     name: "WiFi Signal"
-    update_interval: 60s
+    update_interval: 120s
 
   - platform: uptime
     name: "Uptime"
@@ -172,7 +173,8 @@ text_sensor:
 
 taixia:
   sa_id: 1
-
+  response_time: 6500
+  
 time:
   - platform: homeassistant
     id: homeassistant_time
