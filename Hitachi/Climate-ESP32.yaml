@@ -18,7 +18,7 @@ external_components:
 esp32:
   board: wemos_d1_mini32
   framework:
-    type: arduino
+    type: esp-idf
 
 wifi:
   ssid: !secret wifi_ssid
@@ -98,10 +98,7 @@ button:
 number:
   - platform: taixia
     type: airconditioner
-#    vertical_fan_speed:
-#      name: "Vertical Fan Speed"
-#      max_value: 4
-    horizontal_fan_speed:
+    swing_horizontal_level:
       name: "Horizontal Fan Speed"
       max_value: 4
     sleep_timer:
@@ -130,7 +127,7 @@ sensor:
     accuracy_decimals: 1
 
   - platform: internal_temperature
-    name: "Internal Temperature"
+    name: "ESP32 Temperature"
 
   - platform: taixia
     type: airconditioner
@@ -155,7 +152,7 @@ switch:
       name: "Buzzer"
     mildew_proof:
       name: "Mildew Proof"
-    air_flow_vertical:
+    swing_vertical:
       name: "Vertical Fan"
 
 text_sensor:
@@ -179,8 +176,6 @@ text_sensor:
 
 taixia:
   sa_id: 1
-#  max_length: 100
-#  uart_id: uart_taixia
 
 time:
   - platform: homeassistant
